@@ -66,8 +66,7 @@ public class DNASequences {
      * Given a list of unordered, partial sequences, determine the order by looking for overlapping substrings.
      *
      * @param sequences
-     * @return A string of ordered sequences, but collapsed such that there is no overlap,
-     * just a continuous unbroken sequence
+     * @return A list of ordered, still partial, sequences.
      */
     private static List<String> sortSequences(List<String> sequences) {
 
