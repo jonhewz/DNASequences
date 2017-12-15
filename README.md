@@ -37,6 +37,6 @@ Run in production mode by specifying an input set of sequences. The result will 
 
 `~/dev/DNASequences$ java DNASequences full_data_set.txt`
 
-Run in test mode by specifying both an input set of sequences as well as the solution. Output will say whether the program's solution matches teh provided solution.
+Run in test mode by specifying both an input set of sequences as well as the solution. Output will say whether the program's solution matches the provided solution.
 
 `~/dev/DNASequences$ java DNASequences full_data_set.txt full_solution.txt`
